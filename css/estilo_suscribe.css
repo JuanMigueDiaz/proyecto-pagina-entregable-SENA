@@ -1,0 +1,96 @@
+.img_suscribe{
+    width: 1250px;
+    margin: 0%; 
+}
+
+body {
+  background-image:none;
+  background-color: yellowgreen;
+  background-position:absolute;
+ }
+
+
+/* el asterisco es para dar estilo general*/
+* {
+ padding: 5px;
+ margin: 5px;
+
+
+}
+
+
+#header {
+
+ margin:0%;
+ width: 800px;
+ font-family: Arial, Helvetica, sans-serif;
+ height: 5px; 
+ float: left;
+}
+
+
+ul, ol{
+ list-style: none; 
+ width: 1050px;
+ margin: 0%;
+}
+.nav li a {
+    background-color: #008080	 ;
+    color:aquamarine;
+    text-decoration:none;
+    padding: 10px 60px;
+    display: block;
+    float: left;
+}
+
+.nav li ul{
+ 
+ background-color: #008080;
+
+}
+
+.nav li ul li:hover{
+ /*
+ "hover" es para que al hacer scroll salga colorsitoS, 
+ asigmos "color" a las letras del submenu servicios/Coffee */
+ 
+ color:aqua;  
+ background-color: blueviolet;  
+}
+.nav li ul li a{    
+padding: 100px 15px;
+
+}
+
+.nav li a:hover {
+ background-color: blueviolet;
+}
+.nav li ul li{
+  padding: 5px;
+  width: 800px;
+}
+
+.nav > li {
+ float:left;
+}
+.nav li ul {
+ display: none;
+ position:absolute;
+ min-width: 100px;
+}
+
+.nav li:hover > ul {
+ 
+ display:block;
+}
+
+.nav li ul li {
+ position: relative;
+
+}
+.nav li ul li ul{
+ right: 152px;
+ top:0px;
+
+ 
+}

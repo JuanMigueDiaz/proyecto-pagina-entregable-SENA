@@ -1,0 +1,222 @@
+h1 {
+    justify-content: center;
+    color: rgb(235, 111, 39);
+    margin: 2%;
+   
+    color: rgb(82, 255, 47)}
+
+h2 {
+  justify-content: left;
+   color: rgb(235, 111, 39);
+   font-family: sans-serif;
+   position: relative;}
+
+h3{ 
+  text-align: center; 
+  font-style: italic;
+  color: greenyellow;
+  background-color: black;
+  }
+  
+.a1{
+    color: red;
+  }
+.a2{
+  color:red;
+  text-decoration-style:dotted;
+}
+  
+   
+   
+  /* text-align:right; */
+  
+
+.gimpromo1{
+  width: 200px;
+  margin: 0px;
+  /* border-top-left-radius: 12%;
+  border-top-right-radius: 12%; */
+  border-style:groove;
+  border-color: chartreuse;
+}  
+.parrafo1{
+  position:relative;
+  font-size: 15px;
+  color:black;
+  font-family:'Arial Narrow Bold', sans-serif;
+  white-space: 10;
+}
+
+
+.img_home{
+  background:none;
+  text-align: center;
+  padding: 00%;
+  width: 985px;
+  margin: 0%;
+} 
+.cajahome{
+  position: relative;
+  display: inline-block;
+}
+.texto1{
+  position:absolute;
+  top: 45px;
+  left: 8%;
+  font-size: 90px;
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+.texto2{
+  position: absolute;
+  top: 65%;
+  right: 8%;
+  font-size: 57px;
+  color:black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+
+
+body {
+     background-image:none;
+     background-color:antiquewhite;
+     background-position:absolute;
+    }
+
+
+/* el asterisco es para dar estilo general*/
+* {
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+
+
+  #header {
+
+    margin:0%;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 5px; 
+    float: left;
+  }
+  
+
+  ul, ol{
+    list-style: none; 
+    width: 1050px;
+    margin: 0%;
+  }
+  .nav li a {
+       background-color: #008080	 ;
+       color:aquamarine;
+       text-decoration:none;
+       padding: 10px 60px;
+       display: block;
+       float: left;
+  }
+
+  .nav li ul{
+    
+    background-color: #008080;
+  
+  }
+
+  .nav li ul li:hover{
+    /*
+    "hover" es para que al hacer scroll salga colorsitoS, 
+    asigmos "color" a las letras del submenu servicios/Coffee */
+    
+    color:aqua;  
+    background-color: blueviolet;  
+  }
+  .nav li ul li a{    
+   padding: 100px 15px;
+
+}
+
+  .nav li a:hover {
+    background-color: blueviolet;
+  }
+  .nav li ul li{
+     padding: 5px;
+     width: 800px;
+  }
+
+  .nav > li {
+    float:left;
+  }
+  .nav li ul {
+    display: none;
+    position:absolute;
+    min-width: 100px;
+  }
+
+  .nav li:hover > ul {
+    
+    display:block;
+  }
+
+  .nav li ul li {
+    position: relative;
+
+  }
+  .nav li ul li ul{
+    right: 152px;
+    top:0px;
+
+    
+  }
+
+.asied_1{
+   margin: 0%;
+   padding: 0%;
+   width: 18%;
+   height: 90%;
+   background-position: right;
+   float: right;
+  
+}
+table,th,td{
+    border: 1px solid black
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+ /*cafe 1.jpg*/   
+}
+th, td {
+    padding: 5%;
+}
+
+.charles{
+  display: block;
+}
+
+.button{
+  display: block;
+}
+.cat{
+  display:block;
+}
+.video1{
+  width: 45%; 
+  height: 30%;
+  
+}
+
+  
+
+/*.button_cat{
+  
+}
+.charles{
+  
+} */

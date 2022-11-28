@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/estilo_suscribe.css" rel="stylesheet" type="text/css">
+    <title>suscribe</title>
+</head>
+<body>
+
+</asied>
+<div id="header">   
+  <ul class="nav"> 
+
+      <li><a href="Sportlife.JM.html">Init</a></li>
+      <li><a href="">products</a>
+         <ul>
+            <li>suplementos</li>
+            <li>Alimentos saludables</li>
+            <li>implementos deportivos</li>
+          </ul>
+      </li>           
+      <li><a href="servers.html">services</a> <!--aqui va la referencia a la pagina a la que lleva la opcion del menu-->
+      <ul>
+        <li>Gimnacios SportlifeJM</li>
+        <li>Guia Personalizada</li>
+      </ul>
+      </li>           
+      <li><a href="">Ejercicio</a>
+          <ul>
+              <li> Gym</li>
+              <li> calistenia</li>
+          </ul>                     
+      </li>          
+      <li><a href="suscribe.html">suscribe</a></li>
+
+  </ul>
+</div>
+<!-- section lateral derecha -->
+</section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2>welcome to SportlifeJM...</h2>
+  <br>
+  <p class="parrafo1">¿Quienes somos? SportlifeJM es una organizacion, que ayuda a sus usuarios a mejorar su calidad de vida, 
+    por medio del ejercicio y buenos habitos, tenemos instalaciones propioas llamadas centros SportlifeJM, 
+    que se componen por redes de tiendas, Gimnacios y empresas afiliadas que se identifican con nuestra filosofia
+    para llevar a mas persanas a la mejor version de si mismos.
+  </p>
+  <br>
+  <br>
+  <div class="cajahome">
+      <img class="img_suscribe" src="img/images.jfif"/>
+      <div class="texto1">Te acompañamos <br>en el camino</div>
+      <div class="texto2">hacia tu mejor version</div> 
+  </div>
+
+    <br> <h2>suscribe, no make ask...okay?</h2>
+    <br>
+
+    <form>
+        <div class="elem-group"> 
+            <label for="name">Name</label> 
+                <input type="text" 
+                   id="name" 
+                   name="visitor_name" 
+                   placeholder="petfriendly" 
+                   pattern=[A-Z\sa-z]{3,20} required> </div> 
+                   <div class="elem-group"> 
+            <label for="email">Email address</label> 
+                <input type="email" 
+                       id="email" 
+                       name="visitor_email" 
+                       placeholder="example@email.com" required> 
+                    </div> <div class="elem-group"> 
+                      <label for="dependence-selection">call server for </label> 
+                        <select id="dependence-selection" name="concerned_department" required> 
+                        <option value="">Select dependence</option> 
+                        <option value="billing">denouncer</option> 
+                        <option value="marketing">contributions</option>  
+                        <option value="technical support">customer servers</option> 
+                    </select> </div> <div class="elem-group"> 
+                     <label for="title">How can I help you?</label> 
+                <input type="text" 
+                       id="title" 
+                       name="email_title" 
+                       required placeholder="A wrong/I'm hungry" 
+                       pattern=[A-Za-z0-9\s]{8,60}> </div> 
+                       <div class="elem-group"> 
+                     <label for="message">request</label>
+                         <textarea id="message" name="visitor_message" placeholder="topics wanna to in this website." required>
+                         </textarea> 
+                       </div> 
+                         <button type="submit"> Send Email 
+                         </button>
+    </form>
+    
+</body>
+</html>
